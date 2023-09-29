@@ -1,0 +1,12 @@
+{
+  "name": "swagger-simple-assertions",
+  "version": "1.0.0",
+  "description": "automated api testing based on swagger.json",
+  "main": "index.js",
+  "author": "Ramazan Yavuz",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "fetch": "^1.1.0"
+  }
+}
