@@ -19,6 +19,15 @@ Requirements: please have curl installed and available in your PATH variable.
 2. **Subsequent Runs**: 
    - Executes commands based on `assertions.json`.
    - Stops at the first error for quick issue resolution.
+   
+You can also configure client-credential based authentication/authorization against an SSO and test with that!
+
+## Docker
+i am going to provide a docker image where you can mount swagger.json and easily create
+instances of swagger-simple-assertions for any use case.
+for example, you could run swagger-simple-assertions without authorization, expect 401
+for each call and have another instance of the tool with authorization configured
+and the correct expected values, to test all your api calls are safe.
 
 ## Conclusion
 
